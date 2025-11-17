@@ -22,7 +22,7 @@ import ReviewAndAuditsLayout from "./ReviewsAndAudits/index.jsx";
 import ObjectivesAndKPIsLayout from "./Objectives-KPIs/index.jsx";
 import TrainingPlansLayout from "./Training-plans/index.jsx";
 import OperationLayout from "./Operation-management/index.jsx";
-import PayrollLayout from "./payroll/index.jsx";
+import LeadManagementLayout from "./lead-management";
 import {doGetProjectBreakdown, selectSelectedProject} from "../state/slice/projectSlice.js";
 import {isNotEmptyObj} from "../utils/commonUtils.js";
 import EditTaskPage from "../pages/sprint-page/editTask/index.jsx"
@@ -82,8 +82,8 @@ const Dashboard = () => {
               <TestPlanLayout/>
             </Route>
 
-            <Route path="/payroll">
-              <PayrollLayout/>
+            <Route path="/leadManagement">
+              <LeadManagementLayout/>
             </Route>
 
              <Route path="/processFramework">
