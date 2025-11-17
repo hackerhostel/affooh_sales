@@ -47,6 +47,7 @@ module.exports = {
         'pass-border-color' : 'C6F8BD',
         'fail-border-color' : '#DB5D5D',
         'pending-border-color' : '#E4AF00',
+        'no-data' : '#2326338C',
       },
       height: {
         'list-screen': 'calc(100vh - 183px)',
